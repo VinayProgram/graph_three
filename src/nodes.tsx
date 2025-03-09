@@ -1,10 +1,10 @@
 
 
-const Node = ({size,position}:{size:number,position:number}) => {
+const Node = ({size,position,color,value}:{size:number,position:[number,number,number],color:string,value:string}) => {
   return (
-    <mesh position={[1,position,1]}>
+    <mesh position={position} onClick={()=>alert('clicked on ' + value)}>
         <sphereGeometry args={[size,100]}/>
-        <meshBasicMaterial color={'orange'}/>
+        <meshBasicMaterial color={color}/>
     </mesh>
   )
 }

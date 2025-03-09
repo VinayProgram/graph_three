@@ -1,14 +1,163 @@
 {
-    "root":{
-        "parent":[],
-        "children":["l1","l2"]
+    "root": {
+        "parent": [],
+        "children": ["l1", "l2", "l7"],
+        "positionx": 0,
+        "positiony": 0,
+        "color": "black"
     },
-    "l1":{
-        "parent":["root"],
-        "children":["l2"]
+    "l1": {
+        "parent": ["root"],
+        "children": ["l3", "l4", "l8"],
+        "positionx": 15,
+        "positiony": -10,
+        "color": "orange"
     },
-    "l2":{
-        "parent":["root"],
-        "children":[]
+    "l2": {
+        "parent": ["root"],
+        "children": ["l5", "l9"],
+        "positionx": -15,
+        "positiony": -10,
+        "color": "pink"
+    },
+    "l3": {
+        "parent": ["l1"],
+        "children": ["l10"],
+        "positionx": 20,
+        "positiony": -20,
+        "color": "blue"
+    },
+    "l4": {
+        "parent": ["l1"],
+        "children": ["l11"],
+        "positionx": 10,
+        "positiony": -20,
+        "color": "green"
+    },
+    "l5": {
+        "parent": ["l2"],
+        "children": ["l6", "l12"],
+        "positionx": -20,
+        "positiony": -20,
+        "color": "red"
+    },
+    "l6": {
+        "parent": ["l5"],
+        "children": ["l13"],
+        "positionx": -25,
+        "positiony": -30,
+        "color": "yellow"
+    },
+    "l7": {
+        "parent": ["root"],
+        "children": ["l14", "l15"],
+        "positionx": 0,
+        "positiony": -10,
+        "color": "purple"
+    },
+    "l8": {
+        "parent": ["l1"],
+        "children": ["l16"],
+        "positionx": 25,
+        "positiony": -20,
+        "color": "cyan"
+    },
+    "l9": {
+        "parent": ["l2"],
+        "children": ["l17"],
+        "positionx": -10,
+        "positiony": -20,
+        "color": "magenta"
+    },
+    "l10": {
+        "parent": ["l3"],
+        "children": ["l18"],
+        "positionx": 25,
+        "positiony": -30,
+        "color": "brown"
+    },
+    "l11": {
+        "parent": ["l4"],
+        "children": ["l19"],
+        "positionx": 15,
+        "positiony": -30,
+        "color": "gray"
+    },
+    "l12": {
+        "parent": ["l5"],
+        "children": ["l20"],
+        "positionx": -30,
+        "positiony": -30,
+        "color": "teal"
+    },
+    "l13": {
+        "parent": ["l6"],
+        "children": [],
+        "positionx": -30,
+        "positiony": -40,
+        "color": "olive"
+    },
+    "l14": {
+        "parent": ["l7"],
+        "children": ["l21"],
+        "positionx": -5,
+        "positiony": -20,
+        "color": "navy"
+    },
+    "l15": {
+        "parent": ["l7"],
+        "children": ["l22"],
+        "positionx": 5,
+        "positiony": -20,
+        "color": "maroon"
+    },
+    "l16": {
+        "parent": ["l8"],
+        "children": [],
+        "positionx": 30,
+        "positiony": -30,
+        "color": "lime"
+    },
+    "l17": {
+        "parent": ["l9"],
+        "children": [],
+        "positionx": -15,
+        "positiony": -30,
+        "color": "indigo"
+    },
+    "l18": {
+        "parent": ["l10"],
+        "children": [],
+        "positionx": 30,
+        "positiony": -40,
+        "color": "coral"
+    },
+    "l19": {
+        "parent": ["l11"],
+        "children": [],
+        "positionx": 20,
+        "positiony": -40,
+        "color": "gold"
+    },
+    "l20": {
+        "parent": ["l12"],
+        "children": [],
+        "positionx": -35,
+        "positiony": -40,
+        "color": "silver"
+    },
+    "l21": {
+        "parent": ["l14"],
+        "children": [],
+        "positionx": -10,
+        "positiony": -30,
+        "color": "violet"
+    },
+    "l22": {
+        "parent": ["l15"],
+        "children": [],
+        "positionx": 10,
+        "positiony": -30,
+        "color": "turquoise"
     }
 }
